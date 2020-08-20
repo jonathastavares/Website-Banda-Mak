@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/harshdeepkanhai/the-next-web-clone/feature/index.html)
+[Website Mak 2020 - Live Demo](https://raw.githack.com/jonathastavares/Website-Banda-Mak/homepage-mak-2020/index.html)
 
 
 ## Authors
