@@ -1,0 +1,170 @@
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 100%;
+  font-family: 'mak-font-4';
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.f-bold {
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "mak-font-1";
+  src: url(../fonts/Anton/Anton-Regular.ttf);
+}
+
+@font-face {
+  font-family: "mak-font-2";
+  src: url(../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "mak-font-3";
+  src: url(../fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "mak-font-4";
+  src: url(../fonts/Lobster/Lobster-Regular.ttf);
+}
+
+@font-face {
+  font-family: "mak-font-5";
+  src: url(../fonts/ArchitectsDaughter-Regular.ttf);
+}
+
+
+@media only screen and (min-width: 1024px) {
+    
+    /* Navbar Section */
+
+  .navbar {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    padding: 0 40px;
+    align-items: center;
+    background: linear-gradient(to top, rgb(0, 0, 0, 0.6) 1%, rgba(0, 0, 0, 0.1));
+  }
+
+  .nav-logo-container {
+    width: 10%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-logo {
+    height: 80%;
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  .nav-list {
+    height: 100%;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+  }
+
+  .nav-list > li > a {
+    color: white;
+    margin: 0 30px;
+    font-size: 2em;
+    text-shadow: 0 5px 5px 0 rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  #bg-video {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+    
+  .vd-container {
+    width: 100%;
+    background: linear-gradient(to top, rgb(0, 0, 0, 0.5) 1%, rgba(0, 0, 0, 0.05));
+  }
+    
+  .container {
+    width: 100%;
+  }
+
+  /* Who we are Section */
+
+  #who-we-are {
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+  }
+
+  .wwa-img-container {
+    position: absolute;
+    z-index: 1;
+    opacity: 0.08;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .wwa-img-container > img {
+    width: 100%;
+    height: 2750px;
+  }
+  
+  .wwa-title {
+    width: 80%;
+    margin: 0 auto;
+    z-index: 2;
+  }
+
+  #who-we-are h1 {
+    font-size: 2.8em;
+  }
+
+  .person-container {
+    width: 80%;
+    margin: 40px auto;
+    align-items: center;
+    z-index: 2;
+  }
+
+  .person-img-container {
+    width: 45%;
+    justify-content: center;
+  }
+
+  .person-description {
+    width: 55%;
+  }
+
+  .person-container h2 {
+    font-size: 2.5em;
+  }
+
+  .person-container p {
+    font-size: 1.2em;
+    font-family: 'mak-font-5';
+    font-weight: bolder;
+  }
+}
