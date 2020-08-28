@@ -1,6 +1,7 @@
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 425px) {
   .navbar,
-  #next-shows {
+  #next-shows,
+  #who-we-are {
     display: none;
   }
 
@@ -9,22 +10,22 @@
   .navbar-mob {
     position: fixed;
     height: 50px;
-    width: 8%;
-    padding-left: 18px;
+    width: 100%;
     align-items: center;
+    z-index: 100;
   }
 
   .nav-logo-container {
-    width: 100%;
+    width: 15%;
     height: 100%;
     align-items: center;
     justify-content: center;
+    margin: 10px 0 0 15px;
   }
 
   .nav-logo {
-    height: 80%;
-    width: 100%;
-    margin-right: 20px;
+    height: 40;
+    width: 44px;
   }
 
   .nav-list {
@@ -55,5 +56,55 @@
     
   .container {
     width: 100%;
+  }
+
+  /* Who we are Section */
+
+  #who-we-are-mob {
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  
+  .wwa-title {
+    width: 80%;
+    margin: 0 auto;
+    z-index: 2;
+  }
+
+  .wwa-title h1 {
+    font-size: 2.5em;
+  }
+
+  .person-container {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    z-index: 2;
+  }
+
+  .person-img-container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .person-img-container img {
+    width: 100%;
+  }
+
+  .person-description {
+    width: 84%;
+    margin: 20px;
+  }
+
+  .person-container h2 {
+    font-size: 2.5em;
+  }
+
+  .person-container p {
+    font-size: 1.5em;
+    font-family: 'mak-font-5';
+    font-weight: bolder;
   }
 }

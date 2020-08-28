@@ -62,7 +62,9 @@ main {
 
 @media only screen and (min-width: 1024px) {
 
-  #next-shows {
+  #next-shows,
+  .navbar-mob,
+  #who-we-are-mob {
     display: none;
   }
     
@@ -135,12 +137,6 @@ main {
     opacity: 0.08;
     width: 100%;
     height: 100%;
-  }
-
-
-  .wwa-img-container > img {
-    width: 100%;
-    height: 2750px;
   }
   
   .wwa-title {
