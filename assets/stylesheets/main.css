@@ -19,7 +19,6 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  height: 100%;
   font-family: 'mak-font-4';
 }
 
@@ -62,6 +61,10 @@ main {
 }
 
 @media only screen and (min-width: 1024px) {
+
+  #next-shows {
+    display: none;
+  }
     
     /* Navbar Section */
 
